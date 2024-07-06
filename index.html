@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Task</title>
+    <link rel="stylesheet" href="./assets/style.css">
+
+</head>
+<body>
+    <div>
+        <input type="search" id="input_search" placeholder="Search product">
+    </div>
+    <div>
+        <h1>Items</h1>
+        <h2>Set Item Price</h2>
+        <div>
+            <form action="./index.html">
+                <label for="price">Price (between 0 to 1000): </label>
+                <input type="range" min="0" max="1000" id="Price">
+                <span id="Price_list">0</span>
+            </form> 
+        </div>
+
+        <ul id="items_list"></ul>
+    </div>
+
+</body>
+</html>
+
+<script src="./assets/script.js"></script>

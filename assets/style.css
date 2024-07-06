@@ -1,0 +1,26 @@
+.card{
+    border: solid black 1px;
+    width: 200px;
+    padding: 5px;
+    margin: 2px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+
+.title{
+    height: 80px;
+    text-transform: capitalize;
+}
+
+.category{
+    text-transform: capitalize;
+}
+
+#items_list{
+    display: flex;
+    flex-wrap: wrap;
+}
